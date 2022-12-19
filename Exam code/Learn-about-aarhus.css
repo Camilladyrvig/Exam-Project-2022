@@ -1,0 +1,153 @@
+/* place root variables here */
+:root {
+    --blue: #419393;
+    --grey: #707070; 
+    --bodytext: 'Lucida Sans Unicode';
+}
+ 
+/* header */
+.background{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+size: 5%;
+}
+
+.logo{
+    position: relative;
+    Left: 31px;
+    top: -841px;
+}
+
+.language{
+    position: relative;
+    left: 1467px;
+    top: -884px;
+}
+
+.homebutton{
+    position: relative;
+    left: 709px;
+    top: -181px;
+}
+
+/* Learn about Aarhus */
+h1{
+    color: var(--grey);
+    position: relative;
+    text-align: center;
+    font-size: 140px;
+    left: 3px;
+    top: -926px;
+}
+
+/* body */
+p{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: 103px;
+    top: -497px;
+}
+
+.image1{
+    position: relative;
+    left: 404px;
+    top: -510px;
+}
+
+p1{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: 109px;
+    top: -405px;
+}
+
+.image2{
+    position: relative;
+    left: 378px;
+    top: -296px;
+}
+
+p2{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: 58px;
+    top: -209px;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -129px;
+    left: 6px;
+}
+
+/* mobile devices @media */
+@media only screen and (max-width: 600px) {
+
+/* Learn about Aarhus */
+h1{
+    clear: both;
+    white-space: nowrap;
+    left: 226px;
+    top: -926px;
+}
+
+.homebutton{
+    position: relative;
+    left: 597px;
+    top: -181px;
+}
+
+/* body */
+p{
+    left: 91px;
+    top: -497px;
+    font-size: 50px;
+    clear: both;
+    white-space: nowrap;
+}
+
+
+.image1{
+    position: relative;
+    left: 361px;
+    top: -510px;
+}
+
+p1{
+    left: 91px;
+    top: -405px;
+    font-size: 50px;
+    clear: both;
+    white-space: nowrap;
+}
+
+.image2{
+    position: relative;
+    left: 327px;
+    top: -296px;
+}
+
+p2{
+    left: 58px;
+    top: -209px;
+    font-size: 50px;
+    clear: both;
+    white-space: nowrap;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -129px;
+    left: -115px;
+}
+
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sjællandsgade District</title>
+
+    <link rel="stylesheet" href="Sjællandsgade.css"/>
+
+</head>
+<body>
+   <div class="background">
+        <img src="images/Sjællandsgade.background.png"/>  
+    <div class="logo">
+        <img src="images/Logo.png"></div>
+    <div class="language">
+        <img src="images/EN-DK.png"></div>
+    <div class="homebutton">
+        <img src="images/home button.png"></div>
+
+    <h1>Sjællandsgade District</h1>
+
+    <div class="Address">
+        <img src="images/Address.sjællandsgade.png">
+    </div>
+
+    <p>Sjællandsgade is an old street in Aarhus, it started<br> in the beginning of the 1800s. The street used to<br> be working class district, a number of merchants<br> and other shops were located here. But in the <br>1970s it was starting to change into a more <br>thriving area. Most of the shops are gone now,<br> but you might still be able to find a few. It is a <br>charming street with old architecture. </p>
+
+    <div class="Image1">
+        <img src="images/Sjællandsgade.image1.png">
+    </div>
+
+    <div class="Image2">
+        <img src="images/sjællandsgade.image2.png">
+    </div>
+
+    <p1>All the houses have different<br> colors and it is a very unique<br> street that is worth going to.</p1>
+
+    <div class="collage">
+        <img src="images/sjællandsgade.collage.png">
+    </div>
+
+    <footer>
+        <div class="footer">
+            <img src="images/Footer.png">
+        </div>
+    </footer>
+
+    <style>
+    /* Fixed sidenav, full height */
+    .sidenav {
+        height: 280px;
+        width: 270px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 1655px;
+        background-color: white;
+        overflow-x: hidden;
+        padding-top: 20px;
+        }
+        
+    /* Style the sidenav links and the dropdown button */
+    .sidenav a, .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #707070;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+        font-family:'Lucida Sans Unicode';
+        }
+        
+    /* On mouse-over */
+    .sidenav a:hover, .dropdown-btn:hover {
+        color: #3D8585;
+        }
+        
+    /* Main content */
+    .main {
+        margin-left: 200px; 
+        Font-size: 20px; 
+        padding: 0px 10px;
+        }
+        
+    /* Add an active class to the active dropdown button */
+    .active {
+        background-color:#707070 ;
+        color: white;
+        }
+        
+    /* Dropdown container */
+    .dropdown-container {
+        display: none;
+        background-color: white;
+        padding-left: 8px;
+        }
+        
+    /* Optional: Style the caret down icon */
+    .fa-caret-down {
+        padding-right: 8px;
+        }
+        
+    /* Some media queries for responsiveness */
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        .sidenav {left: 1147px;}
+        }
+    </style>
+    </head>
+        
+        
+    <div class="sidenav">
+        <a href="Font.index.html">Home</a> 
+        <a href="Learn-about-aarhus.html">Learn About Aarhus</a>
+        <a href="Restaurant.html">Best Restaurants In Town</a>
+        <button class="dropdown-btn">Hidden Places 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+        <a href="godsbane.html">Godsbanearealerne</a>
+        <a href="Sjællandsgade.html">Sjællandsgade District</a>
+        <a href="Harbor.html">The Harbor</a>
+        </div>
+          
+        </div>
+        
+        
+        <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+        
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+         } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* place root variables here */
+:root {
+    --blue: #419393;
+    --grey: #707070; 
+    --bodytext: 'Lucida Sans Unicode';
+}
+ 
+/* header */
+.background{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+size: 5%;
+}
+
+.logo{
+    position: relative;
+    Left: 31px;
+    top: -841px;
+}
+
+.language{
+    position: relative;
+    left: 1467px;
+    top: -884px;
+}
+
+.homebutton{
+    position: relative;
+    left: 709px;
+    top: -181px;
+}
+
+/* Sjællandsgade District */
+h1{
+    color: var(--grey);
+    position: relative;
+    text-align: center;
+    font-size: 140px;
+    left: 3px;
+    top: -926px;
+}
+
+/* body */
+.Address{
+    position: relative;
+    left: 242px;
+    top: -486px;
+}
+
+p{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: 267px;
+    top: -497px;
+}
+
+.Image1{
+    position: relative;
+    left: 253px;
+    top: -424px;
+}
+
+.Image2{
+    position: relative;
+    left: 1088px;
+    top: -997px;
+}
+
+p1{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    top: -1321px;
+    left: 248px;
+}
+
+.collage{
+    position: relative;
+    left: 263px;
+    top: -1141px;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -991px;
+    left: 6px;
+}
+
+/* mobile devices @media */
+@media only screen and (max-width: 600px) {
+
+h1{
+    clear: both;
+    white-space: nowrap;
+    top: -896px;
+    left: 193px;
+}
+
+.homebutton{
+    position: relative;
+    left: 632px;; 
+}
+
+p{
+    left: 167px; 
+    clear: both;
+    white-space: nowrap;
+}
+
+.Address{
+    left: 156px;
+}
+
+.Image1{
+    left:176px ;
+}
+
+.Image2{
+    left: 982px;
+}
+
+p1{
+    clear: both;
+    white-space: nowrap;
+    left: 175px;
+}
+
+.collage{
+    left: 217px;
+}
+
+.footer{
+    position: relative;
+    top: -991px;
+    left: -118px;
+}
+
+
+
+
+
+}

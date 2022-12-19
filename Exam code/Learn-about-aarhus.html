@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn About Aarhus</title>
+    <link rel="stylesheet" href="Learn-about-aarhus.css"/>
+</head>
+<body>
+    <div class="background">
+        <img src="images/learn.background.png"/>  
+    <div class="logo">
+        <img src="images/Logo.png"></div>
+    <div class="language">
+        <img src="images/EN-DK.png"></div>
+    <div class="homebutton">
+        <img src="images/home button.png"></div>
+
+    <h1>Learn About Aarhus</h1>
+
+    <p>Aarhus is the second largest city in Denmark. The city has an<br> estimated population of 285,273 as of 2022. Aarhus goes back<br> to at least the late 8th century and is one of the oldest towns in<br> Denmark. The Latin Quarter is the oldest part of town, and it<br> dates back to the 1400s. Aarhus used to be a Viking settlement<br> called Aros, now there is a museum in midtown called Aros.</p>
+
+    <div class="image1">
+        <img src="images/learn.image1.png"></div>
+
+    <p1>Aarhus has a great location for trading, which is why it was<br> popular among the Vikings and in the middle age. In Aarhus you<br>will find the longest church in all of Denmark. The cathedral is 93<br> meters long. It was built in the 15th century in roman style. </p1>
+    
+    <div class="image2">
+        <img src="images/learn.image2.png"></div>
+
+    <p2>In 1406 the first spelling of “Aarhus was found. In 1948 the “Aa”<br> was changed to “Å”, in 2010 the city council wanted the spelling to<br> be changed back to the first one, and in 2011 it became effective.  </p2>
+
+    <footer>
+        <div class="footer">
+            <img src="images/Footer.png">
+        </div>
+    </footer>
+    
+    <style>
+        /* Fixed sidenav, full height */
+        .sidenav {
+            height: 280px;
+            width: 270px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 1655px;
+            background-color: white;
+            overflow-x: hidden;
+            padding-top: 20px;
+            }
+            
+        /* Style the sidenav links and the dropdown button */
+        .sidenav a, .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #707070;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+            font-family:'Lucida Sans Unicode';
+            }
+            
+        /* On mouse-over */
+        .sidenav a:hover, .dropdown-btn:hover {
+            color: #3D8585;
+            }
+            
+        /* Main content */
+        .main {
+            margin-left: 200px; 
+            Font-size: 20px; 
+            padding: 0px 10px;
+            }
+            
+        /* Add an active class to the active dropdown button */
+        .active {
+            background-color:#707070 ;
+            color: white;
+            }
+            
+        /* Dropdown container */
+        .dropdown-container {
+            display: none;
+            background-color: white;
+            padding-left: 8px;
+            }
+            
+        /* Optional: Style the caret down icon */
+        .fa-caret-down {
+            padding-right: 8px;
+            }
+            
+        /* Some media queries for responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            .sidenav {left: 1147px;}
+            }
+        </style>
+        </head>
+            
+            
+        <div class="sidenav">
+            <a href="Font.index.html">Home</a> 
+            <a href="Learn-about-aarhus.html">Learn About Aarhus</a>
+            <a href="Restaurant.html">Best Restaurants In Town</a>
+            <button class="dropdown-btn">Hidden Places 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="godsbane.html">Godsbanearealerne</a>
+            <a href="Sjællandsgade.html">Sjællandsgade District</a>
+            <a href="Harbor.html">The Harbor</a>
+            </div>
+              
+            </div>
+            
+            
+            <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+            
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+             } else {
+                  dropdownContent.style.display = "block";
+                }
+              });
+            }
+            </script>
+
+    
+</body>
+</html>

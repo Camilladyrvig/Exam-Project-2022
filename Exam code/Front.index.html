@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front page</title>
+    <link rel="stylesheet" href="front.css"/>
+
+</head>
+<body>
+    <div class="background">
+<img src="images/Background.front.png"/> 
+
+<div class="logo">
+    <img src="images/Logo.png"> 
+    <div class="burgermenu">
+        <img src="">
+    <div class="language">
+        <img src="images/EN-DK.png"></div>
+    
+    <div class="line">
+        <img src="images/Line.png">
+    </div>
+
+    <div class="menu">
+        <img src="images/menu.png"></div>
+
+    <header>
+        <h1>AARHUS</h1>
+        <h2>Denmark</h2>
+        <h3>Find The Hidden Gems in Aarhus </h3>
+    </header>
+    
+      <!-- Body text and -->
+    <section>
+        <h4>Learn About Aarhus</h4>
+        <p>Aarhus is the second largest<br> city in Denmark. The city has<br>an estimated population of<br>285,273 as of 2022. Aarhus<br>goes back to at least the late <br>8th century and is one of the<br> oldest towns in Denmark. </p>
+        <div class="image1">
+            <img src="images/image1.front.png">
+
+        <div class="LearnMoreButton1">
+            <img src="images/Learnmorebutton.png">
+        </div>
+
+        <h5>Best Restaurant in<br>Town</h5>
+
+        <p2>It can be difficult to decide<br> where to eat in an unfamiliar<br> city. We have collected five <br>delicious eating places that are<br> a must when visiting Aarhus. </p2>
+
+        <div class="image2">
+            <img src="images/image2.front.png">
+        </div>
+
+        <div class="LearnMoreButton2">
+            <img src="images/Learnmorebutton 2.png">
+        </div>
+
+        <h6>Hidden Places in Aarhus</h6>
+
+        <h7>Godsbanearealerne</h7>
+
+        <div class="image3">
+            <img src="images/image3.front.png">
+        </div>
+
+        <div class="image4">
+            <img src="images/image4.front.png">
+        </div>
+
+        <div class="learnMoreArrow">
+            <img src="images/learnMoreArrow.png">
+        </div>
+
+        <h8>Sjællandsgade District</h8>
+
+        <div class="image5">
+            <img src="images/image5.front.png">
+        </div>
+
+        <div class="image6">
+            <img src="images/image6.front.png">
+        </div>
+
+        <div class="learnMoreArrow2">
+            <img src="images/learnMoreArrow.png">
+        </div>
+
+        <h9>The Harbor</h9>
+
+        <div class="image7">
+            <img src="images/image7.front.png">
+        </div>
+
+        <div class="image8">
+            <img src="images/image8.front.png">
+        </div>
+
+        <div class="learnMoreArrow3">
+            <img src="images/learnMoreArrow.png">
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <img src="images/Footer.png">
+        
+    </footer>
+    
+   
+   <style>
+    /* Fixed sidenav, full height */
+.sidenav {
+  height: 280px;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 1655px;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #707070;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family:'Lucida Sans Unicode';
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #3D8585;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; 
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color:#707070 ;
+  color: white;
+}
+
+/* Dropdown container */
+.dropdown-container {
+  display: none;
+  background-color: white;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .sidenav {left:1455px;}
+}
+</style>
+</head>
+
+
+<div class="sidenav">
+  <a href="Font.index.html">Home</a> 
+  <a href="Learn-about-aarhus.html">Learn About Aarhus</a>
+  <a href="Restaurant.html">Best Restaurants In Town</a>
+  <button class="dropdown-btn">Hidden Places 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="godsbane.html">Godsbanearealerne</a>
+    <a href="Sjællandsgade.html">Sjællandsgade District</a>
+    <a href="Harbor.html">The Harbor</a>
+  </div>
+  
+</div>
+
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
