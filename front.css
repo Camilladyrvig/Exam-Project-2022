@@ -1,0 +1,339 @@
+ /* place root variables here */
+:root {
+    --blue: #419393;
+    --grey: #707070; 
+    --bodytext: 'Lucida Sans Unicode';
+}
+  
+.background{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+size: 5%;
+}
+
+.logo{
+    position: relative;
+    Left: 40px;
+    top: -840px;
+}
+
+.burgermenu{
+    position: relative;
+    left: 1740px;
+    top: -54px;
+}
+
+.language{
+    position: relative;
+    left: -311px;
+    top: -55px;
+}
+
+/* AARHUS */
+h1{
+    color: var(--grey);
+    position: relative;
+    left: -1763px;
+    top: -167px;
+    text-align: center;
+    font-size: 150px;
+}
+
+/* Denmark */
+h2{
+    position: relative;
+    color: var(--grey);
+    font-size: 100px;
+    left: -1011px;
+    top: -282px;
+}
+
+/* Find The Hidden Gems In Aarhus City */
+h3{
+    position: relative;
+    color: var(--grey);
+    font-family: var(--bodytext);
+    font-size: 40px;
+    left: -1136px;
+    top: -300px;
+
+}
+
+.line{
+    position: relative;
+    left: -1161px;
+    top: 282px;
+}
+
+
+.menu{
+    position: relative;
+    top: 669px;
+    left: -1587px;
+}
+
+/* Learn About Aarhus */
+h4{
+    position: relative;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 60px;
+    left: -1588px;
+}
+
+p{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 40px;
+    left: -1588px;
+    top: -33px;
+}
+
+.image1{
+    position: relative;
+    left: -873px;
+    top: -594px;
+}
+
+.LearnMoreButton1{
+    position: relative;
+    left: 257px;
+    top: 23px;
+}
+
+/* best restaurants in town */
+h5{
+    position: relative;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 60px;
+    left: -726px;
+}
+
+p2{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 40px;
+    top: -61px;
+    left: -723px;
+}
+
+.image2{
+    position: relative;
+    top: -527px;
+}
+
+.LearnMoreButton2{
+    position: relative;
+    top: -500px;
+    left: 253px;
+}
+
+/* Hidden places in Aarhus */
+h6{
+    position: relative;
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 60px;
+    left: -722px;
+    top: -564px;
+}
+
+/* Godsbanearealerne */
+h7{
+    position: relative;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 60px;
+    left: -696px;
+    top: -574px;
+}
+
+.image3{
+    position: relative;
+    left: -689px;
+    top: -525px;
+}
+
+.image4{
+    position: relative;
+    top: -983px;
+    left: 45px;
+}
+
+.learnMoreArrow{
+    position: relative;
+    top: -947px;
+    left: -79px;
+}
+
+/* Sjællandsgade Distric */
+h8{
+    position: relative;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 60px;
+    left: -696px;
+    top: -874px;
+}
+
+.image5{
+    position: relative;
+    left: -694px;
+    top: -783px;
+}
+
+.image6{
+    position: relative;
+    left: 47px;
+    top: -1246px;
+}
+
+.learnMoreArrow2{
+    position: relative;
+    top: -1212px;
+    left: -88px;
+}
+
+/* The Harbor */
+h9{
+    position: relative;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 60px;
+    top: -1122px;
+    left: -693px;
+}
+
+.image7{
+    position: relative;
+    left: -682px;
+    top: -1044px;
+}
+
+.image8{
+    position: relative;
+    top: -1506px;
+    left: 55px;
+}
+
+.learnMoreArrow3{
+    position: relative;
+    top: -1466px;
+    left: -58px;
+}
+
+.footer{
+    position: relative;
+    top: -1968px;
+    left: -1786px;
+}
+
+  
+/* mobile devices @media */
+@media only screen and (max-width: 600px) {
+
+/* AARHUS */
+h1{
+    left: -1017px;
+    top: -167px;
+}
+
+.language{
+    left: -301px;
+    top: -52px;
+}
+
+.burgermenu{
+    position: relative;
+    left: 1540px;
+    top: -54px;
+}
+
+.menu{
+    position: relative;
+    top: 669px;
+    left: -1463px;
+}
+
+.line{
+    position: relative;
+    left: -1044px;
+    top: 282px;
+}
+
+
+/* Denmark */
+h2{
+    position: relative;
+    left: -895px;
+    top: -282px;
+}
+
+/* Find The Hidden Gems In Aarhus City */
+h3{
+    position: relative;
+    left: -1020px;
+    top: -300px;
+    clear: both;
+    white-space: nowrap;
+}
+
+/* Learn About Aarhus */
+h4{
+    position: relative;
+    left: -1466px;
+    clear: both;
+    white-space: nowrap;
+}
+
+.image1{
+    position: relative;
+    left: -747px;
+    top: -595px;
+}
+
+p{
+    position: relative;
+    left: -1465px;
+    top: -33px;
+    clear: both;
+    white-space: nowrap;
+}
+
+/* best restaurants in town */
+h5{
+    position: relative;
+    left: -726px;
+    clear: both;
+    white-space: nowrap;
+}
+
+p2{
+    position: relative;
+    top: -61px;
+    left: -723px;
+    clear: both;
+    white-space: nowrap;
+}
+
+/* Hidden places in Aarhus */
+h6{
+    position: relative;
+    left: -722px;
+    top: -564px;
+    clear: both;
+    white-space: nowrap;
+}
+
+.footer{
+    position: relative;
+    top: -1968px;
+    left: -1696px;
+}
+
+}
+

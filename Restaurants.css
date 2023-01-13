@@ -1,0 +1,372 @@
+/* place root variables here */
+:root {
+    --blue: #419393;
+    --grey: #707070; 
+    --bodytext: 'Lucida Sans Unicode';
+}
+ 
+/* header */
+.background{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+size: 5%;
+}
+
+.logo{
+    position: relative;
+    Left: 31px;
+    top: -841px;
+}
+
+.language{
+    position: relative;
+    left: 1467px;
+    top: -884px;
+}
+
+.homebutton{
+    position: relative;
+    left: 709px;
+    top: -181px;
+}
+
+/* Best Restaurant in Town  */
+h1{
+    color: var(--grey);
+    position: relative;
+    text-align: center;
+    font-size: 140px;
+    left: 3px;
+    top: -926px;
+}
+
+/* body */
+p{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: 295px;
+    top: -497px;
+}
+
+/* Toast It */
+h2{
+    position: relative;
+    color: var(--blue);
+    font-size: 60px;
+    left: 188px;
+    top: -512px;
+}
+
+p1{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 50px;
+    left: 196px;
+    top: -531px;
+}
+
+.image1{
+    position: relative;
+    left: 1360px;
+    top: -968px;
+}
+
+.address1{
+    position: relative;
+    left: 191px;
+    top: -810px;
+}
+
+/* Vaca */
+h3{
+    position: relative;
+    color: var(--blue);
+    font-size: 60px;
+    left: 188px;
+    top: -751px;
+}
+
+p2{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 50px;
+    left: 196px;
+    top: -781px;
+}
+
+.image2{
+    position: relative;
+    left: 1377px;
+    top: -1073px;
+}
+
+.address2{
+    position: relative;
+    left: 191px;
+    top: -1055px;
+}
+
+/* Aarhus street food */
+h4{
+    position: relative;
+    color: var(--blue);
+    font-size: 60px;
+    left: 188px;
+    top: -1023px;
+}
+
+p3{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 50px;
+    left: 196px;
+    top: -1071px;
+}
+
+.image3{
+    position: relative;
+    left: 1377px;
+    top: -1432px;
+}
+
+.address3{
+    position: relative;
+    left: 191px;
+    top: -1380px;
+}
+
+/* KoD */
+h5{
+    position: relative;
+    color: var(--blue);
+    font-size: 60px;
+    left: 188px;
+    top: -1323px;
+}
+
+p4{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 50px;
+    left: 196px;
+    top: -1388px;
+}
+
+.image4{
+    position: relative;
+    left: 1377px;
+    top: -1752px;
+}
+
+.address4{
+    position: relative;
+    left: 191px;
+    top: -1645px;
+}
+
+/* Domestic */
+h6{
+    position: relative;
+    color: var(--blue);
+    font-size: 60px;
+    left: 188px;
+    top: -1603px;
+}
+
+p5{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 50px;
+    left: 196px;
+    top: -1713px;
+}
+
+.image5{
+    position: relative;
+    left: 1215px;
+    top: -2382px;
+}
+
+.address5{
+    position: relative;
+    left: 191px;
+    top: -1964px;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -1879px;
+    left: 6px;
+}
+
+/* mobile devices @media */
+@media only screen and (max-width: 600px) {
+
+    .homebutton{
+        position: relative;
+        left: 622px;
+        top: -181px;
+    }
+    
+    /* Best Restaurant in Town  */
+    h1{
+        left: 96px;
+        top: -926px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    /* body */
+    p{
+        left: 182px;
+        top: -497px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    /* Toast It */
+    h2{
+        left: 78px;
+        top: -512px;
+    }
+    
+    p1{
+        left: 79px;
+        top: -531px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    .image1{
+        position: relative;
+        left:1236px;
+        top: -968px;
+    }
+    
+    .address1{
+        position: relative;
+        left: 80px;
+        top: -810px;
+    }
+    
+    /* Vaca */
+    h3{
+        left: 78px;
+        top: -751px;
+    }
+    
+    p2{
+        left: 79px;
+        top: -781px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    .image2{
+        position: relative;
+        left: 1236px;
+        top: -1073px;
+    }
+    
+    .address2{
+        position: relative;
+        left: 80px;
+        top: -1055px;
+    }
+    
+    /* Aarhus street food */
+    h4{
+        left: 78px;
+        top: -1023px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    p3{
+        left: 79px;
+        top: -1071px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    .image3{
+        position: relative;
+        left: 1236px;
+        top: -1432px;
+    }
+    
+    .address3{
+        position: relative;
+        left: 80px;
+        top: -1380px;
+    }
+    
+    /* KoD */
+    h5{
+        left:78px;
+        top: -1323px;
+    }
+    
+    p4{
+        left: 79px;
+        top: -1388px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    .image4{
+        position: relative;
+        left: 1236px;
+        top: -1752px;
+    }
+    
+    .address4{
+        position: relative;
+        left: 80px;
+        top: -1645px;
+    }
+    
+    /* Domestic */
+    h6{
+        left: 78px;
+        top: -1603px;
+    }
+    
+    p5{
+        left: 79px;
+        top: -1713px;
+        clear: both;
+        white-space: nowrap;
+    }
+    
+    .image5{
+        position: relative;
+        left: 1010px;
+        top: -2382px;
+    }
+    
+    .address5{
+        position: relative;
+        left: 80px;
+        top: -1964px;
+    }
+    
+    /* footer */
+    .footer{
+        position: relative;
+        top: -1879px;
+        left: -141px;
+    }
+    
+
+
+}

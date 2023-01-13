@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Restaurants in Town</title>
+    <link rel="stylesheet" href="Restaurants.css"/>
+
+</head>
+<body>
+    <div class="background">
+        <img src="images/Restaurant.background.png"/>  
+    <div class="logo">
+        <img src="images/Logo.png"></div>
+    <div class="language">
+        <img src="images/EN-DK.png"></div>
+    <div class="homebutton">
+        <img src="images/home button.png"></div>
+
+    <h1>Best Restaurants In Town</h1>
+
+    <p>Here are five places where you must eat in Aarhus</p>
+
+    <h2>Toast It</h2>
+
+    <p1>Toast it is a little cozy sandwich shop, it is<br> both great for breakfast and lunch. It is a<br>family-owned corporation. Their sandwiches<br> are made on homemade sourdough bread that<br> has been in the making foe at least 48 hours.<br> They only use fresh and tasty ingredients. </p1>
+
+    <div class="image1">
+        <img src="images/restaurant.image1.png"></div>
+
+        <div class="address1">
+            <img src="images/restaurant.adress1.png"></div>
+
+    <h3>Vaca</h3>
+
+    <p2>Vaca serves Mexican finger food. They <br>serve everything from tacos to ensalada<br> that you can enjoy with a margherita or try<br>one of their Mexican beers. </p2>
+    
+    <div class="image2">
+        <img src="images/Restaurant.image2.png"></div>
+    
+    <div class="address2">
+        <img src="images/restaurant.address2.png"></div>
+
+    <h4>Aarhus Street Food</h4>
+
+    <p3>Aarhus Street Food is the place to go when<br> you cannot agree on where to eat. Aarhus<br> Street Food has more than 30 kitchens and<br> bars. There is everything from Danish to<br> Caribbean food to homemade popsicles. </p3>
+
+    <div class="image3">
+        <img src="images/restaurant.image3.png"></div>
+    
+    <div class="address3">
+        <img src="images/restaurant.address3.png"></div>
+
+    <h5>KöD</h5>
+
+    <p4>KöD serves the best steaks from all over<br> the world. You can pick from all the<br> delicious sides to go with your steak. They<br> also have good quality wine to go with the<br> atmosphere.</p4>
+
+    <div class="image4">
+        <img src="images/restaurant.image4.png"></div>
+    
+    <div class="address4">
+        <img src="images/restaurant.address4.png"></div>
+    
+    <h6>Domestic</h6>
+
+    <p5>Domestic specializes in finer Nordic<br> cooking and they care about local<br> ingredients, animal welfare and<br> sustainability and get supplies from<br> surrounding farms for the food. You can<br> choose between four or eight courses with<br> a wine or juice menu. The meal begins with<br> a string of appetizers, the dessert menu is<br> very unique. </p5>
+
+    <div class="image5">
+        <img src="images/restaurant.image5.png"></div>
+    
+    <div class="address5">
+        <img src="images/restaurant.address5.png"></div>
+
+        <footer>
+            <div class="footer">
+                <img src="images/Footer.png">
+            </div>
+        </footer>
+
+    <style>
+        /* Fixed sidenav, full height */
+        .sidenav {
+            height: 280px;
+            width: 270px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 1655px;
+            background-color: white;
+            overflow-x: hidden;
+            padding-top: 20px;
+            }
+            
+        /* Style the sidenav links and the dropdown button */
+        .sidenav a, .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #707070;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+            font-family:'Lucida Sans Unicode';
+            }
+            
+        /* On mouse-over */
+        .sidenav a:hover, .dropdown-btn:hover {
+            color: #3D8585;
+            }
+            
+        /* Main content */
+        .main {
+            margin-left: 200px; 
+            Font-size: 20px; 
+            padding: 0px 10px;
+            }
+            
+        /* Add an active class to the active dropdown button */
+        .active {
+            background-color:#707070 ;
+            color: white;
+            }
+            
+        /* Dropdown container */
+        .dropdown-container {
+            display: none;
+            background-color: white;
+            padding-left: 8px;
+            }
+            
+        /* Optional: Style the caret down icon */
+        .fa-caret-down {
+            padding-right: 8px;
+            }
+            
+        /* Some media queries for responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            .sidenav {left: 1147px;}
+            }
+        </style>
+        </head>
+            
+            
+        <div class="sidenav">
+            <a href="Font.index.html">Home</a> 
+            <a href="Learn-about-aarhus.html">Learn About Aarhus</a>
+            <a href="Restaurant.html">Best Restaurants In Town</a>
+            <button class="dropdown-btn">Hidden Places 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="godsbane.html">Godsbanearealerne</a>
+            <a href="Sjællandsgade.html">Sjællandsgade District</a>
+            <a href="Harbor.html">The Harbor</a>
+            </div>
+              
+            </div>
+            
+            
+            <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+            
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+             } else {
+                  dropdownContent.style.display = "block";
+                }
+              });
+            }
+            </script>
+
+</body>
+</html>

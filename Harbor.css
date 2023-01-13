@@ -1,0 +1,197 @@
+/* place root variables here */
+:root {
+    --blue: #419393;
+    --grey: #707070; 
+    --bodytext: 'Lucida Sans Unicode';
+}
+ 
+/* header */
+.background{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+size: 5%;
+}
+
+.logo{
+    position: relative;
+    Left: 31px;
+    top: -841px;
+}
+
+.language{
+    position: relative;
+    left: 1467px;
+    top: -884px;
+}
+
+.homebutton{
+    position: relative;
+    left: 709px;
+    top: -181px;
+}
+
+/* The Harbor */
+h1{
+    color: var(--grey);
+    position: relative;
+    text-align: center;
+    font-size: 140px;
+    left: 3px;
+    top: -926px;
+}
+
+/* body */
+.Address{
+    position: relative;
+    left: 242px;
+    top: -486px;
+}
+
+p{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: 267px;
+    top: -497px;
+}
+
+.image1{
+    position: relative;
+    left: 253px;
+    top: -424px;
+}
+
+p1{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    top: -342px;
+    left: 248px;
+}
+
+.image2{
+    position: relative;
+    left: 189px;
+    top: -233px;
+}
+
+.image3{
+    position: relative;
+    left: 936px;
+    top: -734px;
+}
+
+p2{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: 225px;
+    top: -638px;
+}
+
+.image4{
+    position: relative;
+    left: 191px;
+    top: -530px;
+}
+
+.image5{
+    position: relative;
+    left: 934px;
+    top: -1030px;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -991px;
+    left: 6px;
+}
+
+/* mobile devices @media */
+@media only screen and (max-width: 600px) {
+
+/* The Harbor */
+h1{
+    left: 495px;
+    top: -926px;
+    clear: both;
+    white-space: nowrap;
+}
+
+.homebutton{
+    position: relative;
+    left: 615px;
+    top: -181px;
+}
+
+/* body */
+.Address{
+    position: relative;
+    left: 148px;
+    top: -486px;
+}
+
+p{
+    left: 161px;
+    top: -497px;
+    clear: both;
+    white-space: nowrap;
+}
+
+.image1{
+    position: relative;
+    left: 147px;
+    top: -424px;
+}
+
+p1{
+    top: -342px;
+    left: 156px;
+    clear: both;
+    white-space: nowrap;
+}
+
+.image2{
+    position: relative;
+    left: 131px;
+    top: -233px;
+}
+
+.image3{
+    position: relative;
+    left: 878px;
+    top: -734px;
+}
+
+p2{
+    left: 132px;
+    top: -638px;
+    clear: both;
+    white-space: nowrap;
+}
+
+.image4{
+    position: relative;
+    left: 125px;
+    top: -530px;
+}
+
+.image5{
+    position: relative;
+    left: 868px;
+    top: -1030px;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -991px;
+    left: -118px;
+}
+
+}

@@ -1,0 +1,188 @@
+/* place root variables here */
+:root {
+    --blue: #419393;
+    --grey: #707070; 
+    --bodytext: 'Lucida Sans Unicode';
+}
+ 
+/* header */
+.background{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+size: 5%;
+}
+
+.logo{
+    position: relative;
+    Left: 62px;
+    top: -875px;
+}
+
+.burgermenu{
+    position: relative;
+    left: 1740px;
+    top: -54px;
+}
+
+.language{
+    position: relative;
+    left: -274px;
+    top: -895px;
+}
+
+/* Godsbanearealerne */
+h1{
+    color: var(--grey);
+    position: relative;
+    left: -1730px;
+    top: -897px;
+    text-align: center;
+    font-size: 140px;
+}
+
+.homebutton{
+    position: relative;
+    top: -146px;
+    left: -1014px;
+}
+
+/* body */
+.Address{
+    position: relative;
+    top: -424px;
+    left: -1509px;
+}
+
+p{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    left: -1505px;
+    top: -409px;
+}
+
+.Image1{
+    position: relative;
+    top: -415px;
+    left: -1252px;
+}
+
+p1{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    top: -316px;
+    left: -1497px;
+}
+
+.Image2{
+    position: relative;
+    top: -201px;
+    left: -1458px;
+}
+
+.Image3{
+    position: relative;
+    left: -725px;
+    top: -721px;
+}
+
+.Image4{
+    position: relative;
+    left: -1460px;
+    top: -651px;
+}
+
+.Image5{
+    position: relative;
+    left: -719px;
+    top: -1153px;
+}
+
+p2{
+    position: relative;
+    font-family: var(--bodytext);
+    color: var(--grey);
+    font-size: 55px;
+    top: -1021px;
+    left: -1497px;
+}
+
+.Image6{
+    position: relative;
+    left: -1327px;
+    top: -896px;}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -749px;
+    left: -1716px;
+}
+
+/* mobile devices @media */
+@media only screen and (max-width: 600px) {
+
+h1{
+    left: -1330px;
+    top: -874px;
+}
+
+.burgermenu{
+    position: relative;
+    left: 1603px;
+    top: -54px;
+}
+
+.logo{
+    position: relative;
+    Left: 59px;
+    top: -840px;
+}
+
+.Address{
+    position: relative;
+    top: -424px;
+    left: -1442px;
+}
+
+p{
+    position: relative;
+    left: -1437px;
+    top: -430px;
+    clear: both;
+    white-space: nowrap;
+}
+
+p1{
+    top: -291px;
+    left: -1432px;
+    clear: both;
+    white-space: nowrap;
+}
+
+p2{
+    left: -1415px;
+    top: -999px;
+    clear: both;
+    white-space: nowrap;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -757px;
+    left: -1733px;
+}
+
+.language{
+    position: relative;
+    left: -332px;
+    top: -895px;
+}
+
+
+}

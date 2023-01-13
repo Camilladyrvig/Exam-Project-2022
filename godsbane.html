@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godsbanearealerne</title>
+    <link rel="stylesheet" href="godsbane.css"/>
+    
+
+</head>
+<body>
+
+    <div class="background">
+        <img src="images/Bcakground.godsbane.png"/> 
+
+    <div class="logo">
+        <img src="images/Logo.png"></div>
+    <div class="burgermenu">
+        <img src="">
+    <div class="language">
+        <img src="images/EN-DK.png"></div>
+    <div class="homebutton">
+        <img src="images/home button.png"></div>
+    
+        <header>
+        <h1>Godsbanearealerne</h1>
+        </header>
+    
+    <div class="Address">
+        <img src="images/Address.png">
+    </div>
+
+    <p>Godsbanearealerne is a part of Aarhus that used to<br> be used for freight trains but was abandoned. Now it<br> is a cultural-historical gem located in the heart of <br>Aarhus. An area characterized by its scenic location<br> at the bottom of the Aarhus Ådal and shaped by<br> human activity over the centuries.</p>
+        
+    <div class="Image1">
+        <img src="Images/image1.godsbane.png">
+    </div> 
+
+    <p1>In this area you will meet a bunch of talented artists<br> and entrepreneurs. There are old building,<br> containers and treehouses decorated with all kinds<br> of things. A lot of the containers are covered with<br> graffiti, but you can tell that most of it is done by <br>artistic people, and they were not trying to ruin the<br> buildings, but simply trying to add a touch of art. </p1>
+
+    <div class="Image2">
+        <img src="Images/image2.godsbane.png"></div>
+    
+    <div class="Image3">
+        <img src="Images/image3.godsbane.png"></div>
+
+    <div class="Image4">
+        <img src="Images/image4.godsbane.png"></div>
+
+    <div class="Image5">
+        <img src="Images/image5.godbane.png">
+    </div>
+
+    <p2>These artists and entrepreneurs are trying to<br>preserve the old industrial part of Aarhus while<br> at the same time giving it a new life. </p2>
+
+    <div class="Image6">
+        <img src="Images/image6.godsbane.png">
+    </div>
+
+    <footer>
+        <div class="footer">
+            <img src="images/Footer.png">
+        </div>
+    </footer>
+
+
+    <style>
+        /* Fixed sidenav, full height */
+    .sidenav {
+      height: 280px;
+      width: 270px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 1655px;
+      background-color: white;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    
+    /* Style the sidenav links and the dropdown button */
+    .sidenav a, .dropdown-btn {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #707070;
+      display: block;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+      font-family:'Lucida Sans Unicode';
+    }
+    
+    /* On mouse-over */
+    .sidenav a:hover, .dropdown-btn:hover {
+      color: #3D8585;
+    }
+    
+    /* Main content */
+    .main {
+      margin-left: 200px; 
+      font-size: 20px; 
+      padding: 0px 10px;
+    }
+    
+    /* Add an active class to the active dropdown button */
+    .active {
+      background-color:#707070 ;
+      color: white;
+    }
+    
+    /* Dropdown container */
+    .dropdown-container {
+      display: none;
+      background-color: white;
+      padding-left: 8px;
+    }
+    
+    /* Optional: Style the caret down icon */
+    .fa-caret-down {
+      padding-right: 8px;
+    }
+    
+    /* Some media queries for responsiveness */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      .sidenav {left: 1147px;}
+    }
+    </style>
+    </head>
+    
+    
+    <div class="sidenav">
+      <a href="Font.index.html">Home</a> 
+      <a href="Learn-about-aarhus.html">Learn About Aarhus</a>
+      <a href="Restaurant.html">Best Restaurants In Town</a>
+      <button class="dropdown-btn">Hidden Places 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="godsbane.html">Godsbanearealerne</a>
+        <a href="Sjællandsgade.html">Sjællandsgade District</a>
+        <a href="Harbor.html">The Harbor</a>
+      </div>
+      
+    </div>
+    
+    
+    <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</body>
+</html>
